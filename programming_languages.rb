@@ -9,7 +9,7 @@ def reformat_languages(languages)
         hash[language][:type] = value[:type]
         if hash[language][:style]
           hash[language][:style] = []
-        else 
+        else
           hash[language][:style] << k
         end
       end
