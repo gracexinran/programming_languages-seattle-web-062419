@@ -5,7 +5,7 @@ def reformat_languages(languages)
     languages.each do |k,v|
 
       languages[k].each do |language, value|
-        if !hash[language] 
+        if !hash[language]
           hash[language] = {}
         end
         hash[language][:type] = value[:type]
